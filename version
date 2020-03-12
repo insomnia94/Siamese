@@ -1,0 +1,10 @@
+ImageNet_train: custom conv layers to extract the feature (ILSVRC2015_VID)
+ImageNet_test: test file for the model from ImageNet_train (ILSVRC2015_VID)
+
+Resnet_train: use pre-trained Resnet network to extract the feature (ILSVRC2015_VID)
+Resnet_test: test file for the model from Resnet_train (ILSVRC2015_VID)
+Resnet_test_simple: the import is two simple images
+
+Davis_train: use pre-trained Resnet network to extract the feature (DAVIS 2017)
+Davis_test: test file for the model from Davis_train (DAVIS 2017)
+

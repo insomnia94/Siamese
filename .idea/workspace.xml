@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1d0401e-6e07-4516-b28b-8599a4f72dac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Config_resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Siamese-networks-medium.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Siamese-networks-medium.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s5/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s5/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s5/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s5/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s5/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s5/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s5/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s5/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s5/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s5/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s6/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s6/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s6/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s6/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s6/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s6/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s6/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s6/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s6/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s6/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s7/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s7/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s7/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s7/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s7/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s7/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s7/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s7/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s7/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/testing/s7/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s1/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s1/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s1/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s1/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s1/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s1/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s1/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s1/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s1/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s1/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s10/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s10/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s10/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s10/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s10/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s10/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s10/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s10/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s10/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s10/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s11/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s11/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s11/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s11/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s11/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s11/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s11/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s11/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s11/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s11/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s12/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s12/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s12/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s12/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s12/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s12/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s12/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s12/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s12/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s12/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s13/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s13/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s13/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s13/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s13/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s13/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s13/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s13/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s13/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s13/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s14/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s14/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s14/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s14/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s14/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s14/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s14/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s14/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s14/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s14/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s15/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s15/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s15/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s15/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s15/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s15/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s15/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s15/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s15/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s15/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s16/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s16/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s16/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s16/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s16/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s16/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s16/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s16/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s16/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s16/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s17/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s17/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s17/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s17/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s17/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s17/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s17/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s17/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s17/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s17/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s18/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s18/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s18/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s18/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s18/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s18/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s18/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s18/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s18/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s18/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s19/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s19/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s19/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s19/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s19/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s19/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s19/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s19/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s19/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s19/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s2/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s2/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s2/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s2/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s2/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s2/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s2/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s2/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s2/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s2/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s20/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s20/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s20/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s20/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s20/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s20/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s20/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s20/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s20/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s20/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s21/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s21/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s21/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s21/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s21/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s21/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s21/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s21/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s21/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s21/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s22/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s22/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s22/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s22/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s22/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s22/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s22/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s22/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s22/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s22/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s23/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s23/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s23/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s23/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s23/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s23/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s23/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s23/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s23/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s23/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s24/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s24/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s24/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s24/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s24/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s24/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s24/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s24/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s24/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s24/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s25/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s25/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s25/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s25/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s25/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s25/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s25/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s25/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s25/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s25/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s26/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s26/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s26/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s26/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s26/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s26/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s26/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s26/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s26/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s26/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s27/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s27/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s27/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s27/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s27/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s27/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s27/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s27/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s27/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s27/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s28/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s28/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s28/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s28/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s28/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s28/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s28/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s28/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s28/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s28/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s29/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s29/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s29/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s29/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s29/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s29/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s29/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s29/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s29/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s29/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s3/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s3/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s3/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s3/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s3/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s3/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s3/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s3/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s3/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s3/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s30/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s30/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s30/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s30/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s30/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s30/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s30/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s30/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s30/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s30/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s31/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s31/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s31/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s31/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s31/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s31/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s31/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s31/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s31/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s31/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s32/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s32/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s32/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s32/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s32/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s32/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s32/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s32/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s32/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s32/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s33/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s33/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s33/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s33/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s33/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s33/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s33/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s33/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s33/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s33/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s34/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s34/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s34/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s34/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s34/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s34/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s34/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s34/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s34/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s34/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s35/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s35/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s35/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s35/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s35/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s35/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s35/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s35/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s35/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s35/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s36/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s36/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s36/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s36/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s36/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s36/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s36/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s36/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s36/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s36/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s37/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s37/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s37/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s37/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s37/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s37/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s37/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s37/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s37/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s37/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s38/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s38/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s38/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s38/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s38/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s38/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s38/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s38/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s38/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s38/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s39/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s39/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s39/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s39/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s39/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s39/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s39/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s39/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s39/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s39/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s4/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s4/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s4/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s4/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s4/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s4/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s4/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s4/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s4/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s4/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s40/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s40/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s40/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s40/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s40/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s40/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s40/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s40/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s40/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s40/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s8/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s8/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s8/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s8/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s8/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s8/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s8/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s8/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s8/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s8/9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s9/1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s9/10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s9/2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s9/3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s9/4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s9/5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s9/6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s9/7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s9/8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/faces/training/s9/9.pgm" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Siamese$ImageNet_train.coverage" NAME="ImageNet_train Coverage Results" MODIFIED="1574685922284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Facial_Siamese$ImageNet_test.coverage" NAME="ImageNet_test Coverage Results" MODIFIED="1563257982025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Facial_Siamese$Resnet_test.coverage" NAME="Resnet_test Coverage Results" MODIFIED="1563257991153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Siamese$ImageNet_test.coverage" NAME="ImageNet_test Coverage Results" MODIFIED="1573290506028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Siamese$Resnet_test.coverage" NAME="Resnet_test Coverage Results" MODIFIED="1575775716765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Siamese$Resnet_test_simple.coverage" NAME="Resnet_test_simple Coverage Results" MODIFIED="1575775527040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Siamese$run.coverage" NAME="run Coverage Results" MODIFIED="1573008476871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Facial_Siamese$ImageNet_train.coverage" NAME="ImageNet_train Coverage Results" MODIFIED="1563155524244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Siamese$Resnet_train.coverage" NAME="Resnet_train Coverage Results" MODIFIED="1574730475556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Facial_Siamese$run.coverage" NAME="run Coverage Results" MODIFIED="1563089017400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Facial_Siamese$Resnet_train.coverage" NAME="Resnet_train Coverage Results" MODIFIED="1563243027359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1355359939">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ipynb" value="1" />
+          <entry key="pgm" value="2" />
+          <entry key="py" value="24" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IPNB" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="Python" value="24" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="46" />
+          <entry key="py" value="4150" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="4196" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1246446560">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="63" />
+          <entry key="py" value="2507" />
+          <entry key="version" value="413" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="413" />
+          <entry key="Python" value="2570" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="39" />
+          <entry key="version" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="39" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resnet_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="730">
+              <caret line="184" column="39" selection-start-line="184" selection-start-column="39" selection-end-line="184" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1574837693806" expanded="true" signature="4482:4487" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Config_resnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="23" column="63" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resnet_test_simple.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1276">
+              <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+              <folding>
+                <element signature="e#65#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resnet_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img0</find>
+      <find>Config</find>
+      <find>index</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Siamese-networks-medium.ipynb" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/version" />
+        <option value="$PROJECT_DIR$/ImageNet_train.py" />
+        <option value="$PROJECT_DIR$/ImageNet_test.py" />
+        <option value="$PROJECT_DIR$/Config_resnet.py" />
+        <option value="$PROJECT_DIR$/Resnet_test.py" />
+        <option value="$PROJECT_DIR$/Resnet_test_simple.py" />
+        <option value="$PROJECT_DIR$/Resnet_train.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2225" />
+    <option name="y" value="383" />
+    <option name="width" value="1918" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Siamese" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Siamese" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Resnet_test">
+    <configuration name="ImageNet_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Facial_Siamese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageNet_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ImageNet_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Facial_Siamese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageNet_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Resnet_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Facial_Siamese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Resnet_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Resnet_test_simple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Facial_Siamese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Resnet_test_simple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Resnet_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Facial_Siamese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Resnet_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ImageNet_train" />
+      <item itemvalue="Python.ImageNet_test" />
+      <item itemvalue="Python.Resnet_train" />
+      <item itemvalue="Python.Resnet_test" />
+      <item itemvalue="Python.Resnet_test_simple" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Resnet_test" />
+        <item itemvalue="Python.Resnet_test_simple" />
+        <item itemvalue="Python.Resnet_train" />
+        <item itemvalue="Python.ImageNet_train" />
+        <item itemvalue="Python.ImageNet_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1d0401e-6e07-4516-b28b-8599a4f72dac" name="Default Changelist" comment="" />
+      <created>1562899208991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562899208991</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2225" y="383" width="1918" height="1020" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20020854" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39016736" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4131799" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="1920" y="24" width="1920" height="1056" id="SciView" order="3" weight="0.3296875" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ImageNet_test.py</url>
+          <line>274</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ImageNet_train.py</url>
+          <line>258</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Resnet_train.py</url>
+          <line>179</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Resnet_test_simple.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Resnet_test.py</url>
+          <line>252</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Resnet_test.py</url>
+          <line>254</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="i" />
+        <watch expression="epoch" />
+        <watch expression="output1" />
+        <watch expression="output2" />
+        <watch expression="euclidean_distance" />
+        <watch expression="label2" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/faces/testing/s5/1.pgm" />
+    <entry file="file://$PROJECT_DIR$/Siamese-networks-medium.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conda-env.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch10/lib/python3.6/site-packages/torchvision/datasets/folder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch10/lib/python3.6/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="1313" selection-start-line="1313" selection-end-line="1313" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch10/lib/python3.6/site-packages/torch/nn/modules/conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="319" selection-start-line="319" selection-end-line="319" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch10/lib/python3.6/site-packages/torch/nn/modules/container.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch10/lib/python3.6/site-packages/torch/serialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch10/lib/python3.6/site-packages/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="1351" selection-start-line="1351" selection-end-line="1351" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch10/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch10/lib/python3.6/site-packages/torch/nn/modules/linear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_trace_dispatch_regular.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch10/lib/python3.6/site-packages/torch/utils/data/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3741">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch10/lib/python3.6/site-packages/torchvision/transforms/transforms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22446">
+          <caret line="779" column="33" selection-start-line="779" selection-start-column="33" selection-end-line="779" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch10/lib/python3.6/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13949">
+          <caret line="488" selection-start-line="488" selection-end-line="488" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch-env/lib/python3.7/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="268" selection-start-line="268" selection-end-line="268" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch-env/lib/python3.7/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="790" selection-start-line="790" selection-end-line="790" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch-env/lib/python3.7/multiprocessing/popen_fork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch-env/lib/python3.7/multiprocessing/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch-env/lib/python3.7/multiprocessing/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch-env/lib/python3.7/site-packages/torch/utils/data/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="288" selection-start-line="288" selection-end-line="288" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/torch_p27/lib/python2.7/site-packages/torch/autograd/variable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/torch_p27/lib/python2.7/site-packages/torch/utils/data/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/torch_p27/lib/python2.7/site-packages/torch/multiprocessing/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/torch_p27/lib/python2.7/multiprocessing/queues.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/torch_p27/lib/python2.7/multiprocessing/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/torch_p27/lib/python2.7/multiprocessing/forking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/torch_p27/lib/python2.7/site-packages/torch/utils/data/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageNet_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="40" column="72" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py" />
+    <entry file="file://$USER_HOME$/.conda/envs/pytorch13/lib/python3.7/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="537" column="31" lean-forward="true" selection-start-line="537" selection-start-column="31" selection-end-line="537" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageNet_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-957">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resnet_test_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="e#65#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resnet_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resnet_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="184" column="39" selection-start-line="184" selection-start-column="39" selection-end-line="184" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1574837693806" expanded="true" signature="4482:4487" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config_resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
